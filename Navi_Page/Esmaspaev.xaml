@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navi_Page.Esmaspaev">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Esmaspäev" HorizontalOptions="Center" FontSize="Large" />
+            <Button Text="Teisispäev" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

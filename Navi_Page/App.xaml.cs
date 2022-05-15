@@ -9,8 +9,10 @@ namespace Navi_Page
         public App()
         {
             InitializeComponent();
-
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new Navi_Page.MainPage())
+            {
+                BarBackgroundColor = Color.Coral
+            };
         }
 
         protected override void OnStart()
